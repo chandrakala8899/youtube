@@ -1,0 +1,25 @@
+.all {
+  display: flex;
+  justify-content: space-around; /* Evenly distribute the links */
+ /* Background color for the entire div */
+  padding: 10px 0; /* Vertical padding */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 800px; /* Optional: limits the width of the container */
+  margin-right: 800px; /* Centers the container horizontally */
+}
+
+.all a {
+  color: rgb(32, 26, 26);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; 
+}
+
+.all a:hover {
+  background-color: #ddd;
+
+}
+
